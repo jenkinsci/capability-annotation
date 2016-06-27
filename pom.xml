@@ -16,10 +16,10 @@
     </dependency>
   </dependencies>
 
-  <!--scm>
+  <scm>
     <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}.git</developerConnection>
-  </scm-->
+  </scm>
 
   <licenses>
     <license>
