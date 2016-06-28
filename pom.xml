@@ -21,10 +21,33 @@
     <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}.git</developerConnection>
   </scm>
 
+  <repositories>
+    <repository>
+      <id>repo.jenkins-ci.org</id>
+      <name>Jenkins Repository</name>
+      <url>http://repo.jenkins-ci.org/public/</url>
+    </repository>
+  </repositories>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>repo.jenkins-ci.org</id>
+      <url>http://repo.jenkins-ci.org/public/</url>
+    </pluginRepository>
+  </pluginRepositories>
+
   <licenses>
     <license>
       <name>MIT License</name>
       <url>http://jenkins-ci.org/mit-license</url>
     </license>
   </licenses>
+
+  <developers>
+    <developer>
+      <email>vivek.pandey@gmail.com</email>
+      <name>Vivek Pandey</name>
+      <id>vivek</id>
+    </developer>
+  </developers>
 </project>
