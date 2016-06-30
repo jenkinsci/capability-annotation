@@ -13,6 +13,6 @@ BlueOcean API would report this capability when queried using it's classes API a
     GET /rest/classes/io.jenkins.example.test.MyTestReporter
     
     {
-        "classes":["io.jenkins.example.test.MyTestReporter", "io.jenkins.example.test.ExampleTestReporter", "hudson.tasks.test.AbstractTestResultAction"]
+        "classes":["io.jenkins.example.test.ExampleTestReporter", "hudson.tasks.test.AbstractTestResultAction"]
     }
  
