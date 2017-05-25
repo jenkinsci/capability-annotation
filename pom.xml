@@ -18,7 +18,7 @@
 
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}.git</developerConnection>
+    <developerConnection>scm:git:https://github.com/jenkinsci/capability-annotation.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
